@@ -24,4 +24,6 @@ public class UniPlannerContext : IdentityDbContext<UniPlannerUser>
     public DbSet<UniPlanner.Models.UniProgramme> UniProgramme { get; set; } = default!;
 
     public DbSet<UniPlanner.Models.UniversityInfo> UniversityInfo { get; set; } = default!;
+
+    public DbSet<UniPlanner.Models.Programme> Programme { get; set; } = default!;
 }
