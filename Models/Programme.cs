@@ -7,7 +7,7 @@ namespace UniPlanner.Models
     public class Programme
     {
         [Key]
-        public required int ProgrammesID { get; set; }
+        public required int ProgrammeID { get; set; }
         public required string Name { get; set; }
 
         public ICollection<UniProgramme> UniProgrammes { get; set; }
