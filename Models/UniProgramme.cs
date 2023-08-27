@@ -5,7 +5,7 @@ namespace UniPlanner.Models
     public class UniProgramme
     {
         [Key]
-        public required int UniProgrammesID { get; set; }
+        public required int UniProgrammeID { get; set; }
         public required UniversityInfo UniversityID { get; set; }
         public required Programme ProgrameID { get; set; }
         public required string Link { get; set; }
